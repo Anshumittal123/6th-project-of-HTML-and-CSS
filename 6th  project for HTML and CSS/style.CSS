@@ -1,0 +1,267 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow: hidden;
+}
+
+.contner{
+    background-image:url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+button{
+    background-color: #ff7200;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #ff7200;
+    border: 1px solid #000000;
+}
+
+.navber{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logobar{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left:20px ;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.grow-list{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.grow-list ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.grow-list ul li{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: Arial; 
+}
+
+.grow-list ul li:hover{
+    color: #ff7200;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: times New Roman;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.srch-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 13px;
+    padding: 10px;
+    border: 2px solid #ff7200;
+    font-size: 15px;
+    border-start-end-radius:none;
+    cursor: pointer;
+}
+
+.srch-button:hover{
+    color: #000000;
+}
+
+.srch-button:focus{
+    outline: none;
+}
+.scrh{
+    overflow: none;
+}
+
+.left-section{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.left-section h1{
+    font-family: Times New Roman;
+    font-size:50px ;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.left-section h1 span{
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.left-section p{
+    padding-left: 20px;
+    padding-bottom:25px ;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.join{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 170px;
+    left: 970px;
+    border-radius: 10px;
+    transform: translate(0%,-5%);
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+;;::placeholder{
+    color: #FFFFFF;
+    font-family: Arial;
+}
+
+.login-button{
+    width: 240px;
+    height: 40;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s ease;
+}
+
+.login-button:hover{
+    background-color: #fff;
+    color: #ff7200;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icons ul{
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons ul:hover{
+    color: #ff7200;
+}
+
